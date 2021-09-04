@@ -1,0 +1,10 @@
+region: ap-south-1
+instance_type: t2.micro
+image: ami-04db49c0fb2215364
+vpc_subnet_id: subnet-0790eee827b286891
+group_name: kubernetes_sg
+master_key_name: cluster_key
+master_count: 1
+
+worker_key_name: cluster_key
+worker_count: 2
